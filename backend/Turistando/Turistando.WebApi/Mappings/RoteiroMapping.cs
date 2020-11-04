@@ -15,6 +15,8 @@ namespace Turistando.WebApi.Mappings
 
                 //properties
                 entity.Property(e => e.IdGuia).IsRequired();
+                entity.Property(e => e.Nome).HasMaxLength(250).IsRequired();
+                entity.Property(e => e.Imagem).HasMaxLength(250);
                 entity.Property(e => e.Cidade).HasMaxLength(250);
                 entity.Property(e => e.Estado).HasMaxLength(50);
                 entity.Property(e => e.Descricao).HasColumnType("text");

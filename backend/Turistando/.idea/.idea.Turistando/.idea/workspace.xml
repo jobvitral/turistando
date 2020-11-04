@@ -23,59 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b339230f-0443-4f34-8cc4-656f657c50ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Turistando/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Turistando/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Turistando/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Contexts/TuristandoContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Controllers/AutenticacaoController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Controllers/CategoriaController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Controllers/ReservaController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Controllers/ReservaRoteiroController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Controllers/RoteiroCategoriaController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Controllers/RoteiroController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Controllers/UsuarioController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Filters/CategoriaFilter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Filters/ReservaFilter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Filters/ReservaRoteiroFilter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Filters/RoteiroCategoriaFilter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Filters/RoteiroFilter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Filters/UsuarioFilter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Helpers/LoginModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Helpers/ValidationModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Interfaces/IAutenticacao.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Interfaces/ICategoria.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Interfaces/IReserva.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Interfaces/IReservaRoteiro.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Interfaces/IRoteiro.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Interfaces/IRoteiroCategoria.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Interfaces/IUsuario.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Mappings/CategoriaMapping.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Mappings/ReservaMapping.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Mappings/ReservaRoteiroMapping.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Mappings/RoteiroCategoriaMapping.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Mappings/RoteiroMapping.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Mappings/UsuarioMapping.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Migrations/20201104014235_initial_migration.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Migrations/20201104014235_initial_migration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Migrations/TuristandoContextModelSnapshot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Models/Categoria.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Models/Reserva.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Models/ReservaRoteiro.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Models/Roteiro.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Models/RoteiroCategoria.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Repositories/AutenticacaoRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Repositories/CategoriaRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Repositories/ReservaRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Repositories/ReservaRoteiroRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Repositories/RoteiroCategoriaRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Repositories/RoteiroRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Repositories/UsuarioRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Turistando.WebApi/Controllers/WeatherForecastController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Turistando.WebApi/Models/Usuario.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Turistando.WebApi/Models/Usuario.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Turistando.WebApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Turistando.WebApi/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Turistando.WebApi/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Turistando.WebApi/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Turistando.WebApi/Turistando.WebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Turistando.WebApi/Turistando.WebApi.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Turistando.WebApi/WeatherForecast.cs" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Controllers/UploadController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Turistando/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Turistando/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Turistando.WebApi/Filters/RoteiroFilter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Turistando.WebApi/Filters/RoteiroFilter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Turistando.WebApi/Mappings/RoteiroMapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Turistando.WebApi/Mappings/RoteiroMapping.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Turistando.WebApi/Models/Roteiro.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Turistando.WebApi/Models/Roteiro.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Turistando.WebApi/Repositories/RoteiroRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Turistando.WebApi/Repositories/RoteiroRepository.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +38,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/../.." value="develop" />
+        <entry key="$PROJECT_DIR$/../.." value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -100,8 +53,6 @@
         <option value="$PROJECT_DIR$/Turistando.WebApi/Mappings/ReservaMapping.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Models/ReservaRoteiro.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Mappings/ReservaRoteiroMapping.cs" />
-        <option value="$PROJECT_DIR$/Turistando.WebApi/Models/Roteiro.cs" />
-        <option value="$PROJECT_DIR$/Turistando.WebApi/Mappings/RoteiroMapping.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Mappings/RoteiroCategoria.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Models/RoteiroCategoria.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Mappings/RoteiroCategoriaMapping.cs" />
@@ -112,7 +63,6 @@
         <option value="$PROJECT_DIR$/Turistando.WebApi/Filters/CategoriaFilter.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Filters/ReservaFilter.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Filters/RoteiroCategoriaFilter.cs" />
-        <option value="$PROJECT_DIR$/Turistando.WebApi/Filters/RoteiroFilter.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Filters/UsuarioFilter.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Helpers/LoginModel.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Helpers/ValidationModel.cs" />
@@ -128,7 +78,6 @@
         <option value="$PROJECT_DIR$/Turistando.WebApi/Repositories/UsuarioRepository.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Repositories/ReservaRoteiroRepository.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Repositories/RoteiroCategoriaRepository.cs" />
-        <option value="$PROJECT_DIR$/Turistando.WebApi/Repositories/RoteiroRepository.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Program.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Startup.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Controllers/AutenticacaoController.cs" />
@@ -139,6 +88,11 @@
         <option value="$PROJECT_DIR$/Turistando.WebApi/Controllers/RoteiroCategoriaController.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Controllers/ReservaRoteiroController.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Repositories/CategoriaRepository.cs" />
+        <option value="$PROJECT_DIR$/Turistando.WebApi/Models/Roteiro.cs" />
+        <option value="$PROJECT_DIR$/Turistando.WebApi/Filters/RoteiroFilter.cs" />
+        <option value="$PROJECT_DIR$/Turistando.WebApi/Mappings/RoteiroMapping.cs" />
+        <option value="$PROJECT_DIR$/Turistando.WebApi/Repositories/RoteiroRepository.cs" />
+        <option value="$PROJECT_DIR$/Turistando.WebApi/Controllers/UploadController.cs" />
       </list>
     </option>
   </component>
@@ -157,7 +111,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Publish to custom server.Turistanto Publish">
+  <component name="RunManager" selected=".NET Launch Settings Profile.Turistando.WebApi">
     <configuration name="Turistanto Publish" type="DotNetPublishAndUpload" factoryName="Publish to custom server">
       <riderPublish runtime="Portable" server_id="8cdc6165-710e-4bea-a22d-1ac764f43bc4" target_framework="netcoreapp3.1" uuid_high="-665569154595206487" uuid_low="-8043889930511170586" />
       <method v="2" />
@@ -207,6 +161,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604449327768</updated>
       <workItem from="1604449334680" duration="14525000" />
+      <workItem from="1604488426779" duration="348000" />
     </task>
     <task id="LOCAL-00001" summary="TUR-01: inicializacao dos models">
       <created>1604450188119</created>
@@ -221,7 +176,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -233,6 +188,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

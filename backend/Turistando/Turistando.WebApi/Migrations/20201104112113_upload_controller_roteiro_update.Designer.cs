@@ -2,15 +2,17 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Turistando.WebApi.Contexts;
 
 namespace Turistando.WebApi.Migrations
 {
     [DbContext(typeof(TuristandoContext))]
-    partial class TuristandoContextModelSnapshot : ModelSnapshot
+    [Migration("20201104112113_upload_controller_roteiro_update")]
+    partial class upload_controller_roteiro_update
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

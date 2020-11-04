@@ -15,6 +15,7 @@
           <e p="ReservaRoteiroController.cs" t="Include" />
           <e p="RoteiroCategoriaController.cs" t="Include" />
           <e p="RoteiroController.cs" t="Include" />
+          <e p="UploadController.cs" t="Include" />
           <e p="UsuarioController.cs" t="Include" />
         </e>
         <e p="Filters" t="Include">

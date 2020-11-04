@@ -7,6 +7,7 @@ namespace Turistando.WebApi.Filters
         public int[] Categorias { get; set; }
         public string[] Cidades { get; set; }
         public string[] Estados { get; set; }
+        public string Nome { get; set; }
         public double? ValorMinimo { get; set; }
         public double? ValorMaximo { get; set; }
         
