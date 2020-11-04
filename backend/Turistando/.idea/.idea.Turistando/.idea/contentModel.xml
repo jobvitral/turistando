@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_Turistando.1893275232.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="Turistando.WebApi" t="IncludeRecursive">
+        <e p="Contexts" t="Include">
+          <e p="TuristandoContext.cs" t="Include" />
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="AutenticacaoController.cs" t="Include" />
+          <e p="CategoriaController.cs" t="Include" />
+          <e p="ReservaController.cs" t="Include" />
+          <e p="ReservaRoteiroController.cs" t="Include" />
+          <e p="RoteiroCategoriaController.cs" t="Include" />
+          <e p="RoteiroController.cs" t="Include" />
+          <e p="UsuarioController.cs" t="Include" />
+        </e>
+        <e p="Filters" t="Include">
+          <e p="CategoriaFilter.cs" t="Include" />
+          <e p="ReservaFilter.cs" t="Include" />
+          <e p="ReservaRoteiroFilter.cs" t="Include" />
+          <e p="RoteiroCategoriaFilter.cs" t="Include" />
+          <e p="RoteiroFilter.cs" t="Include" />
+          <e p="UsuarioFilter.cs" t="Include" />
+        </e>
+        <e p="Helpers" t="Include">
+          <e p="EnumTipoUsuario.cs" t="Include" />
+          <e p="LoginModel.cs" t="Include" />
+          <e p="ValidationModel.cs" t="Include" />
+        </e>
+        <e p="Interfaces" t="Include">
+          <e p="IAutenticacao.cs" t="Include" />
+          <e p="ICategoria.cs" t="Include" />
+          <e p="IReserva.cs" t="Include" />
+          <e p="IReservaRoteiro.cs" t="Include" />
+          <e p="IRoteiro.cs" t="Include" />
+          <e p="IRoteiroCategoria.cs" t="Include" />
+          <e p="IUsuario.cs" t="Include" />
+        </e>
+        <e p="Mappings" t="Include">
+          <e p="CategoriaMapping.cs" t="Include" />
+          <e p="ReservaMapping.cs" t="Include" />
+          <e p="ReservaRoteiroMapping.cs" t="Include" />
+          <e p="RoteiroCategoriaMapping.cs" t="Include" />
+          <e p="RoteiroMapping.cs" t="Include" />
+          <e p="UsuarioMapping.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20201104014235_initial_migration.Designer.cs" t="Include" />
+          <e p="20201104014235_initial_migration.cs" t="Include" />
+          <e p="TuristandoContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Categoria.cs" t="Include" />
+          <e p="Reserva.cs" t="Include" />
+          <e p="ReservaRoteiro.cs" t="Include" />
+          <e p="Roteiro.cs" t="Include" />
+          <e p="RoteiroCategoria.cs" t="Include" />
+          <e p="Usuario.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="AutenticacaoRepository.cs" t="Include" />
+          <e p="CategoriaRepository.cs" t="Include" />
+          <e p="ReservaRepository.cs" t="Include" />
+          <e p="ReservaRoteiroRepository.cs" t="Include" />
+          <e p="RoteiroCategoriaRepository.cs" t="Include" />
+          <e p="RoteiroRepository.cs" t="Include" />
+          <e p="UsuarioRepository.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="Turistando.WebApi.csproj" t="IncludeRecursive" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Turistando.WebApi.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Turistando.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
