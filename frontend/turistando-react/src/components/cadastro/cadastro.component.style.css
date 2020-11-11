@@ -1,0 +1,19 @@
+.cadastro-component
+{
+}
+
+.cadastro-component-logo
+{
+    max-width: 200px;
+}
+
+.cadastro-component-avatar
+{
+    max-width: 200px;
+    height: auto;
+}
+
+.p-card .p-card-content {
+    padding: 0 !important;
+}
+
