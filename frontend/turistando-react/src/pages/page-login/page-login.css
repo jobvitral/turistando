@@ -1,0 +1,27 @@
+.page-login
+{
+
+}
+
+.page-login-background
+{
+    background-color: #f1f1f1;
+    background-image: url("https://source.unsplash.com/random/?turismo,viagem");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.page-login-container
+{
+    height: 100vh;
+    position: relative;
+}

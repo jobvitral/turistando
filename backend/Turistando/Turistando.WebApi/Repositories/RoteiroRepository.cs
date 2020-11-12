@@ -59,7 +59,12 @@ namespace Turistando.WebApi.Repositories
             {
                 query = query.Where(a => filter.Guias.Contains(a.IdGuia));
             }
-            
+
+            if (!string.IsNullOrEmpty(filter.Nome))
+            {
+                query = query.Where(a => a.Nome.Contains(filter.Nome));
+            }
+
             if (filter.Categorias != null)
             {
                 query = query.Where(a => a.RoteiroCategorias.Any(b => filter.Categorias.Contains(b.IdCategoria)));

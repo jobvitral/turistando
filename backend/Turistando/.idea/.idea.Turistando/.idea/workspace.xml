@@ -23,59 +23,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b339230f-0443-4f34-8cc4-656f657c50ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Turistando/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Turistando/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Turistando/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Contexts/TuristandoContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Controllers/AutenticacaoController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Controllers/CategoriaController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Controllers/ReservaController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Controllers/ReservaRoteiroController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Controllers/RoteiroCategoriaController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Controllers/RoteiroController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Controllers/UsuarioController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Filters/CategoriaFilter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Filters/ReservaFilter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Filters/ReservaRoteiroFilter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Filters/RoteiroCategoriaFilter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Filters/RoteiroFilter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Filters/UsuarioFilter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Helpers/LoginModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Helpers/ValidationModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Interfaces/IAutenticacao.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Interfaces/ICategoria.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Interfaces/IReserva.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Interfaces/IReservaRoteiro.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Interfaces/IRoteiro.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Interfaces/IRoteiroCategoria.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Interfaces/IUsuario.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Mappings/CategoriaMapping.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Mappings/ReservaMapping.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Mappings/ReservaRoteiroMapping.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Mappings/RoteiroCategoriaMapping.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Mappings/RoteiroMapping.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Mappings/UsuarioMapping.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Migrations/20201104014235_initial_migration.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Migrations/20201104014235_initial_migration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Migrations/TuristandoContextModelSnapshot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Models/Categoria.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Models/Reserva.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Models/ReservaRoteiro.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Models/Roteiro.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Models/RoteiroCategoria.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Repositories/AutenticacaoRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Repositories/CategoriaRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Repositories/ReservaRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Repositories/ReservaRoteiroRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Repositories/RoteiroCategoriaRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Repositories/RoteiroRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Turistando.WebApi/Repositories/UsuarioRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Turistando.WebApi/Controllers/WeatherForecastController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Turistando.WebApi/Models/Usuario.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Turistando.WebApi/Models/Usuario.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Turistando.WebApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Turistando.WebApi/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Turistando.WebApi/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Turistando.WebApi/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Turistando.WebApi/Turistando.WebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Turistando.WebApi/Turistando.WebApi.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Turistando.WebApi/WeatherForecast.cs" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/.idea/turistando-react.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/public/assets/images/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/cadastro/cadastro.component.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/cadastro/cadastro.component.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/cadastro/cadastro.component.properties.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/cadastro/cadastro.component.style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/cadastro/cadastro.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/login/login.component.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/login/login.component.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/login/login.component.properties.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/login/login.component.style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/login/login.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/filters/categoria-filter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/filters/reserva-filter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/filters/reserva-roteiro-filter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/filters/roteiro-categoria-filter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/filters/roteiro-filter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/filters/usuario-filter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/helpers/enum-dialog-type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/helpers/enum-tipo-usuario.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/helpers/helper-commons.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/helpers/helper-dialog.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/helpers/helper-login.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/helpers/helper-redirect.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/helpers/helper-sessao.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/helpers/helper-validation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/models/categoria.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/models/reserva-roteiro.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/models/reserva.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/models/roteiro-categoria.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/models/roteiro.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/models/usuario.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/pages/page-cadastro/page-cadastro.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/pages/page-cadastro/page-cadastro.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/pages/page-home/page-home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/pages/page-home/page-home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/pages/page-login/page-login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/pages/page-login/page-login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/services/autenticacao.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/services/global.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/services/usuario.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Turistando/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Turistando/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Turistando/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Turistando/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +82,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/../.." value="develop" />
+        <entry key="$PROJECT_DIR$/../.." value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -100,8 +97,6 @@
         <option value="$PROJECT_DIR$/Turistando.WebApi/Mappings/ReservaMapping.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Models/ReservaRoteiro.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Mappings/ReservaRoteiroMapping.cs" />
-        <option value="$PROJECT_DIR$/Turistando.WebApi/Models/Roteiro.cs" />
-        <option value="$PROJECT_DIR$/Turistando.WebApi/Mappings/RoteiroMapping.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Mappings/RoteiroCategoria.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Models/RoteiroCategoria.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Mappings/RoteiroCategoriaMapping.cs" />
@@ -112,7 +107,6 @@
         <option value="$PROJECT_DIR$/Turistando.WebApi/Filters/CategoriaFilter.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Filters/ReservaFilter.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Filters/RoteiroCategoriaFilter.cs" />
-        <option value="$PROJECT_DIR$/Turistando.WebApi/Filters/RoteiroFilter.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Filters/UsuarioFilter.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Helpers/LoginModel.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Helpers/ValidationModel.cs" />
@@ -128,7 +122,6 @@
         <option value="$PROJECT_DIR$/Turistando.WebApi/Repositories/UsuarioRepository.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Repositories/ReservaRoteiroRepository.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Repositories/RoteiroCategoriaRepository.cs" />
-        <option value="$PROJECT_DIR$/Turistando.WebApi/Repositories/RoteiroRepository.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Program.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Startup.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Controllers/AutenticacaoController.cs" />
@@ -139,6 +132,11 @@
         <option value="$PROJECT_DIR$/Turistando.WebApi/Controllers/RoteiroCategoriaController.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Controllers/ReservaRoteiroController.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Repositories/CategoriaRepository.cs" />
+        <option value="$PROJECT_DIR$/Turistando.WebApi/Models/Roteiro.cs" />
+        <option value="$PROJECT_DIR$/Turistando.WebApi/Filters/RoteiroFilter.cs" />
+        <option value="$PROJECT_DIR$/Turistando.WebApi/Mappings/RoteiroMapping.cs" />
+        <option value="$PROJECT_DIR$/Turistando.WebApi/Repositories/RoteiroRepository.cs" />
+        <option value="$PROJECT_DIR$/Turistando.WebApi/Controllers/UploadController.cs" />
       </list>
     </option>
   </component>
@@ -151,6 +149,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -207,6 +206,9 @@
       <option name="presentableId" value="Default" />
       <updated>1604449327768</updated>
       <workItem from="1604449334680" duration="14525000" />
+      <workItem from="1604488426779" duration="1319000" />
+      <workItem from="1605028106794" duration="3566000" />
+      <workItem from="1605112270832" duration="1997000" />
     </task>
     <task id="LOCAL-00001" summary="TUR-01: inicializacao dos models">
       <created>1604450188119</created>
@@ -215,13 +217,20 @@
       <option name="project" value="LOCAL" />
       <updated>1604450188119</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="UploadController e Atualizacao de Roteiro">
+      <created>1604489020478</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604489020478</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -233,11 +242,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="TUR-01: inicializacao dos models" />
-    <option name="LAST_COMMIT_MESSAGE" value="TUR-01: inicializacao dos models" />
+    <MESSAGE value="UploadController e Atualizacao de Roteiro" />
+    <option name="LAST_COMMIT_MESSAGE" value="UploadController e Atualizacao de Roteiro" />
   </component>
   <component name="WindowStateProjectService">
     <state x="517" y="227" width="800" height="684" key="#Deployment" timestamp="1604463209537">
@@ -256,10 +268,10 @@
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
     <state x="648" y="222" width="669" height="669" key="RiderGenerateDialog/56.27.1864.1053@56.27.1864.1053" timestamp="1604458206980" />
-    <state x="583" y="275" width="823" height="563" key="Vcs.Push.Dialog.v2" timestamp="1604450207541">
+    <state x="583" y="275" width="823" height="563" key="Vcs.Push.Dialog.v2" timestamp="1604489026037">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>
-    <state x="583" y="275" width="823" height="563" key="Vcs.Push.Dialog.v2/56.27.1864.1053@56.27.1864.1053" timestamp="1604450207541" />
+    <state x="583" y="275" width="823" height="563" key="Vcs.Push.Dialog.v2/56.27.1864.1053@56.27.1864.1053" timestamp="1604489026037" />
     <state x="818" y="283" width="415" height="579" key="ftp.server.browser" timestamp="1604463157190">
       <screen x="56" y="27" width="1864" height="1053" />
     </state>

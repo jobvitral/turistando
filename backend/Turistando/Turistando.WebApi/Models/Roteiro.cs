@@ -13,6 +13,8 @@ namespace Turistando.WebApi.Models
 
         public int Id { get; set; }
         public int IdGuia { get; set; }
+        public string Nome { get; set; }
+        public string Imagem { get; set; }
         public string Cidade { get; set; }
         public string Estado { get; set; }
         public string Descricao { get; set; }
