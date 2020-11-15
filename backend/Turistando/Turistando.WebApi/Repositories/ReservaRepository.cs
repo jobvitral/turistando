@@ -25,6 +25,9 @@ namespace Turistando.WebApi.Repositories
         {
             // inicializa a consulta
             var query = await _db.Reserva
+                .Include(a => a.ReservaRoteiros)
+                    .ThenInclude(b => b.Roteiro)
+                        .ThenInclude(c => c.Guia)
                 .FirstOrDefaultAsync(a => a.Id == id);
 
             //retorna o resultado
@@ -35,6 +38,8 @@ namespace Turistando.WebApi.Repositories
         {
             //inicializa a consulta
             var query = _db.Reserva
+                .Include(a => a.Turista)
+                .Include(a => a.Guia)
                 .Include(a => a.ReservaRoteiros)
                     .ThenInclude(b => b.Roteiro)
                 .AsQueryable();

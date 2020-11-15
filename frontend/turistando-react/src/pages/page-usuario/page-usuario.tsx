@@ -3,10 +3,10 @@ import {HelperSessao} from "../../helpers/helper-sessao";
 import {GlobalService} from "../../services/global.service";
 import MenuComponent from '../../components/menu/menu.component';
 import '../../index.css';
-import HomeComponent from '../../components/home/home.component';
+import { UsuarioComponent } from '../../components/usuario/usuario.component';
 import { HelperCommons } from '../../helpers/helper-commons';
 
-const PageHome: React.FC = () => 
+const PageUsuario: React.FC = () => 
 {
     const [sessao, setSessao] = useState<HelperSessao>(GlobalService.getSessao());
 
@@ -23,11 +23,17 @@ const PageHome: React.FC = () =>
 
             <div className="page-container">
                 <div className="page-content">
-                    <HomeComponent></HomeComponent>
+                    <div className="p-grid">
+                        <div className="p-col-12">
+                            <h3>Meus Dados</h3>
+                        </div>
+                    </div>
+                    
+                    <UsuarioComponent></UsuarioComponent>
                 </div>
             </div>
         </div>
 	);
 }
 
-export default PageHome;
+export default PageUsuario;

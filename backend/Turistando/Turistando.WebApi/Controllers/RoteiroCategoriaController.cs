@@ -2,6 +2,7 @@ using System;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Turistando.WebApi.Filters;
+using Turistando.WebApi.Helpers;
 using Turistando.WebApi.Models;
 using Turistando.WebApi.Repositories;
 
@@ -26,7 +27,7 @@ namespace Turistando.WebApi.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(ex);
+                return BadRequest(new ValidationModel(ex.Message));
             }
         }
 
@@ -51,7 +52,7 @@ namespace Turistando.WebApi.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(ex);
+                return BadRequest(new ValidationModel(ex.Message));
             }
         }
 
@@ -87,7 +88,7 @@ namespace Turistando.WebApi.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(ex);
+                return BadRequest(new ValidationModel(ex.Message));
             }
         }
 
@@ -123,7 +124,7 @@ namespace Turistando.WebApi.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(ex);
+                return BadRequest(new ValidationModel(ex.Message));
             }
         }
 
@@ -148,7 +149,7 @@ namespace Turistando.WebApi.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(ex);
+                return BadRequest(new ValidationModel(ex.Message));
             }
         }
     }

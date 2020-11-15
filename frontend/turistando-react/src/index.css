@@ -12,3 +12,211 @@ code
 {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+.page-background
+{
+  background-color: #f1f1f1;
+  background-image: url("https://source.unsplash.com/random/?turismo,viagem");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.page-container
+{
+  
+  padding-top: 100px;
+  padding-bottom: 90px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+}
+
+.page-content
+{
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0.5em;
+  position: relative;
+  background-color: white;
+}
+
+.page-login
+{
+    position: relative;
+}
+
+.page-login-background
+{
+    background-color: #f1f1f1;
+    background-image: url("https://source.unsplash.com/random/?turismo,viagem");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.page-login-container
+{
+    height: 100vh;
+    position: relative;
+}
+
+.page-cadastro
+{
+    position: relative;
+}
+
+.page-cadastro-background
+{
+    background-color: #f1f1f1;
+    background-image: url("https://source.unsplash.com/random/?turismo,viagem");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.page-cadastro-container
+{
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0.5em;
+    position: relative;
+}
+
+.page-cadastro-form
+{
+
+    background-color: white;
+}
+
+.login-component
+{
+    position: relative;
+}
+
+.cadastro-component
+{
+  position: relative;
+}
+
+.cadastro-component-logo
+{
+    max-width: 200px;
+}
+
+.cadastro-component-avatar
+{
+    max-width: 200px;
+    height: auto;
+}
+
+.p-card .p-card-content {
+    padding: 0 !important;
+}
+
+
+.menu-component
+{
+  position: relative;
+}
+
+.menu-component .logo
+{
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid gainsboro;
+    z-index: 999;
+}
+
+.menu-component .logo img
+{
+    width: 140px;
+    height: auto;
+}
+
+.menu-component .actions
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff;
+    border-top: 1px solid gainsboro;
+    z-index: 999;
+}
+
+.form-image
+{
+  width: 200px;
+  height: auto;
+}
+
+.list-item-title
+{
+  font-size: 20px;
+}
+
+.list-image
+{
+  width: 100%;
+  height: auto;
+}
+
+.box-stretched
+{
+  height: 100%;
+}
+
+/* modificacoes dos compomentes primereact */
+.p-tabmenu-nav
+{
+    justify-content: center;
+    align-content: center;
+}
+
+
+.p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link
+{
+    display: block;
+}
+
+.p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link .p-menuitem-icon
+{
+    display: block;
+    padding-bottom: 10px;
+    margin: 0 auto !important;
+}
+
+.p-tabmenu-nav .p-menuitem-text
+{
+    display: block;
+}

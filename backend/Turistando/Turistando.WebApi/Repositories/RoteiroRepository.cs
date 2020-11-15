@@ -62,7 +62,7 @@ namespace Turistando.WebApi.Repositories
 
             if (!string.IsNullOrEmpty(filter.Nome))
             {
-                query = query.Where(a => a.Nome.Contains(filter.Nome));
+                query = query.Where(a => a.Nome.Contains(filter.Nome) || a.Cidade.Contains(filter.Nome));
             }
 
             if (filter.Categorias != null)

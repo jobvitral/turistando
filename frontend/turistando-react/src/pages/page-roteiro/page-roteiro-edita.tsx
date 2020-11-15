@@ -3,10 +3,11 @@ import {HelperSessao} from "../../helpers/helper-sessao";
 import {GlobalService} from "../../services/global.service";
 import MenuComponent from '../../components/menu/menu.component';
 import '../../index.css';
-import HomeComponent from '../../components/home/home.component';
+import { useHistory, useLocation, useParams } from 'react-router-dom';
+import RoteiroEditaComponent from '../../components/roteiro/roteiro-edita.component';
 import { HelperCommons } from '../../helpers/helper-commons';
 
-const PageHome: React.FC = () => 
+const PageRoteiroEdita: React.FC = () => 
 {
     const [sessao, setSessao] = useState<HelperSessao>(GlobalService.getSessao());
 
@@ -23,11 +24,11 @@ const PageHome: React.FC = () =>
 
             <div className="page-container">
                 <div className="page-content">
-                    <HomeComponent></HomeComponent>
+                    <RoteiroEditaComponent></RoteiroEditaComponent>
                 </div>
             </div>
         </div>
 	);
 }
 
-export default PageHome;
+export default PageRoteiroEdita;

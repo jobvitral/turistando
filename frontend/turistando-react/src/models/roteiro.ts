@@ -4,10 +4,10 @@ import {Usuario} from "./usuario";
 
 export class Roteiro
 {
-    constructor()
+    constructor(idGuia: number)
     {
         this.Id = 0;
-        this.IdGuia = 0;
+        this.IdGuia = idGuia;
         this.Nome = '';
         this.Imagem = 'no-image.jpg';
         this.Cidade = '';

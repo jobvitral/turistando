@@ -63,6 +63,24 @@ export class HelperCommons
         }
     }
 
+    public static getDateString(data: Date | string): string
+    {
+        if (data != null)
+        {
+            data = new Date(data);
+
+            const year = data.getFullYear().toString().padStart(4,'0');
+            const month = data.getMonth().toString().padStart(2,'0');
+            const day = data.getDate().toString().padStart(2,'0');
+
+            return `${day}/${month}/${year}`;
+        }
+        else
+        {
+            return '';
+        }
+    }
+
     public static calendarLocale(): any
     {
         const ptBr =
@@ -88,5 +106,11 @@ export class HelperCommons
             '#3B3EAC', '#0099C6', '#DD4477', '#66AA00', '#B82E2E',
             '#316395', '#994499', '#22AA99', '#AAAA11', '#6633CC',
             '#E67300', '#8B0707', '#329262', '#5574A6', '#3B3EAC'];
+    }
+
+    public static goTop()
+    {
+        window.scrollTo(0, 0);
+
     }
 }

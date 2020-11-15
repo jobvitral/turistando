@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Microsoft.VisualBasic;
 
 namespace Turistando.WebApi.Helpers
 {
@@ -8,6 +9,12 @@ namespace Turistando.WebApi.Helpers
         {
             this.Valido = true;
             this.Erros = new List<string>();
+        }
+
+        public ValidationModel(string erro)
+        {
+            this.Valido = true;
+            this.Erros = new List<string> {erro};
         }
 
         public bool Valido { get; set; }

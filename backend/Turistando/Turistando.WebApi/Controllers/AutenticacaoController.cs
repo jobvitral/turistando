@@ -43,7 +43,7 @@ namespace Turistando.WebApi.Controllers
             catch (System.Exception ex)
             {
                 // retorna uma excecao
-                return BadRequest(ex);
+                return BadRequest(new ValidationModel(ex.Message));
             }
         }
     }

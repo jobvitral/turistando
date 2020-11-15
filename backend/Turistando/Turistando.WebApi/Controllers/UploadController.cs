@@ -5,6 +5,7 @@ using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Turistando.WebApi.Helpers;
 
 namespace Turistando.WebApi.Controllers
 {
@@ -58,7 +59,7 @@ namespace Turistando.WebApi.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(ex);
+                return BadRequest(new ValidationModel(ex.Message));
             }
         }
 
@@ -105,7 +106,7 @@ namespace Turistando.WebApi.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(ex);
+                return BadRequest(new ValidationModel(ex.Message));
             }
         }
     

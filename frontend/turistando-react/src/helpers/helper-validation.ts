@@ -7,4 +7,13 @@ export class HelperValidation
 
     public Valido: boolean;
     public Erros: string[];
+
+    public static setError(error: string): HelperValidation
+    {
+        let validation = new HelperValidation();
+        validation.Valido = false;
+        validation.Erros.push(error);
+
+        return validation
+    }
 }

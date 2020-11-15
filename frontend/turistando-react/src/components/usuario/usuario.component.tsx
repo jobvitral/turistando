@@ -19,13 +19,15 @@ import { UsuarioService } from '../../services/usuario.service';
 import { HelperValidation } from '../../helpers/helper-validation';
 import { GlobalService } from '../../services/global.service';
 import "../../index.css";
+import { HelperSessao } from '../../helpers/helper-sessao';
+import { UploadService } from '../../services/upload.service';
 
-export const CadastroComponent: React.FC = () =>
+export const UsuarioComponent: React.FC = () =>
 {
     // inicializa os hooks
     const history = useHistory();
+    const [sessao, setSessao] = useState<HelperSessao>(GlobalService.getSessao());
     const [usuario, setUsuario] = useState<Usuario>(new Usuario());
-    const [confirmaSenha, setConfirmaSenha] = useState('');
     const [tiposCadastro, setTipoCadastro] = useState<SelectItem[]>([]);
     const [tiposSexo, setTipoSexo] = useState<SelectItem[]>([]);
 
@@ -45,6 +47,7 @@ export const CadastroComponent: React.FC = () =>
     {
         await carregaListaCadastro();
         await carregaListaSexo();
+        await carregaUsuario();
     }
 
     const carregaListaSexo = async () => {
@@ -61,6 +64,26 @@ export const CadastroComponent: React.FC = () =>
         tiposCadastro.push({label: 'Turista', value: EnumTipoUsuario.Turista});
 
         setTipoCadastro(tiposCadastro);
+    }
+
+    const carregaUsuario = async () => 
+    {
+        let service = new UsuarioService();
+
+        try 
+        {
+            let result = await service.buscar(sessao.Id);
+            
+            if(result != null)
+            {
+                result.DataNascimento = new Date(result.DataNascimento.toString());
+                setUsuario(result);
+            }
+        }
+        catch(error: any) 
+        {
+            HelperDialog.alert('Erro ao cadastrar', error.Erros, EnumDialogType.Erro, null);
+        }
     }
 
     const valida = (): HelperValidation =>
@@ -113,26 +136,6 @@ export const CadastroComponent: React.FC = () =>
             }
         }
 
-        // verifica a senha
-        if(!usuario.Senha)
-        {
-            validation.Valido = false;
-            validation.Erros.push('Informe uma senha de acesso');
-        }
-
-        // verifica a confirmacao da senha
-        if(!confirmaSenha)
-        {
-            validation.Valido = false;
-            validation.Erros.push('Informe um connfirmação da senha');
-        }
-
-        if(usuario.Senha !== confirmaSenha)
-        {
-            validation.Valido = false;
-            validation.Erros.push('Confirmação de senha inválida');
-        }
-
         // validacoes especificas de guia
         if(usuario.Tipo === EnumTipoUsuario.Guia)
         {
@@ -173,8 +176,11 @@ export const CadastroComponent: React.FC = () =>
         try 
         {
             var response = await service.listar(filtro);
-            
-            if(response.length > 0)
+
+            //carrega somente registro ignorando o usuario atual
+            let lista = response.filter(a => a.Id != sessao.Id);
+
+            if(lista.length > 0)
                 isValido = false;
             else
                 isValido = true;
@@ -193,7 +199,7 @@ export const CadastroComponent: React.FC = () =>
 
         // insere no banco de dados
         service
-            .inserir(usuario)
+            .atualizar(usuario)
             .then((result) =>
             {
                 // salva o login
@@ -208,11 +214,52 @@ export const CadastroComponent: React.FC = () =>
             });
     }
 
-    // eventos
-    const onCancelar_Click = () => {
-        history.push('/login');
+    //faz upload da imagem
+    const upload = async (files: any) => {
+        if (files.length > 0)
+        {
+            // pega o arquivo
+            const file = files.item(0);
+
+            // cria o form
+            const formData = new FormData();
+            formData.append('file', file, file.name);
+
+            try 
+            {
+                // faz o upload
+                let service = new UploadService();
+                let response = await service.enviaImagem(formData);
+
+                //verifica se retorno imagem
+                if(response.length > 0)
+                {
+                    //atualiza o estado da imagem
+                    const imagem = response[0];
+
+                    //atualiza o state
+                    usuarioChange({
+                        target: {
+                            name: 'Avatar',
+                            value: imagem
+                        }
+                    });
+                }
+            } 
+            catch (error) 
+            {
+                HelperDialog.alert('Erro ao carregar os dados', (error as HelperValidation).Erros, EnumDialogType.Erro, null);
+            }
+        }
     }
 
+    // eventos
+    const onImage_Change = (e: any) => {
+        let files = e.target.files;
+
+        upload(files);
+    }
+    
     const onEmail_Change = async () => {
         if(usuario.Email.trim())
         {
@@ -242,11 +289,10 @@ export const CadastroComponent: React.FC = () =>
             {
                 const successCallback = (result: Usuario) =>
                 {
-                    const title = 'Cadastro efetuado';
-                    const message = 'Obrigado por cadastrar. Utilize o email e a senha cadastrada para entrar no sistems';
-                    const callback = () => { history.push('/login') };
-
-                    HelperDialog.alert(title, [message], EnumDialogType.Sucesso, callback);
+                    const title = 'Cadastro atualizado';
+                    const message = 'Dados atualizados com sucesso';
+                    
+                    HelperDialog.alert(title, [message], EnumDialogType.Sucesso, null);
                 }
 
                 //efetua o cadastro
@@ -263,18 +309,22 @@ export const CadastroComponent: React.FC = () =>
         }
     }
 
+    const onLogout_Click = () => 
+    {
+        GlobalService.closeSessao();
+    }
+
     return(
         <div className="cadastro-component">
             <Card>
                 <div className="p-fluid p-formgrid p-grid">
                     <div className="p-field p-col-12 p-text-center">
-                        <img src={'assets/images/logo.png'} className="cadastro-component-logo" alt="Turistando"/>
+                        <img className="form-image" src={ HelperCommons.wwwHost() + '/assets/images/thumbs/' + usuario.Avatar }></img>
                     </div>
-
-                    <div className="p-field p-col-12">
-                        <h2>Faça o seu cadastro</h2>
+                    <div className="p-field p-col-12 p-text-center">
+                        <input type="file" multiple={false} onChange={ onImage_Change } accept="image/*" />
                     </div>
-
+                    
                     <div className="p-field p-col-12 p-md-8">
                         <label>Tipo de Cadastro</label>
                         <Dropdown value={ usuario.Tipo }
@@ -374,36 +424,16 @@ export const CadastroComponent: React.FC = () =>
                                            autoResize></InputTextarea>
                         </div>
                     }
-
-                    <div className="p-field p-col-12 p-pt-2 p-pb-2">
-                        <hr/>
-                    </div>
-
-                    <div className="p-field p-col-12 p-md-6">
-                        <label>Informe a senha</label>
-                        <Password value={ usuario.Senha }
-                                  name="Senha"
-                                  onChange={ usuarioChange }></Password>
-                    </div>
-                    <div className="p-field p-col-12 p-md-6">
-                        <label>Confirme a senha</label>
-                        <InputText type="password"
-                                   value={ confirmaSenha }
-                                   onChange={(e:ChangeEvent<HTMLInputElement>) => setConfirmaSenha(e.target.value)} />
-                    </div>
                 </div>
 
                 <div className="p-fluid p-mt-4 ">
-                    <div className="p-field p-d-md-none">
-                        <Button label="Cadastrar" onClick={ onCadastrar_Click } className="p-button" />
-                    </div>
-
-                    <div className="p-d-md-flex p-jc-md-between p-d-none">
-                        <div>
-                            <Button label="Cancelar" onClick={ onCancelar_Click } icon="pi pi-times" className="p-button-text" />
+                    <div className="p-d-md-flex p-jc-md-between">
+                        <div className="p-mb-4">
+                            <Button label="Atualizar Cadastro" onClick={ onCadastrar_Click } icon="pi pi-check" className="p-button"  />
                         </div>
+
                         <div>
-                            <Button label="Cadastrar" onClick={ onCadastrar_Click } icon="pi pi-check" className="p-button"  />
+                            <Button label="Sair do sistema" onClick={ onLogout_Click } icon="pi pi-times" className="p-button p-button-danger" />
                         </div>
                     </div>
                 </div>

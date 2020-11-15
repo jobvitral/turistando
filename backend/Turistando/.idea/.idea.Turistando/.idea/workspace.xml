@@ -23,56 +23,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b339230f-0443-4f34-8cc4-656f657c50ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/.idea/turistando-react.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/public/assets/images/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/cadastro/cadastro.component.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/cadastro/cadastro.component.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/cadastro/cadastro.component.properties.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/cadastro/cadastro.component.style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/cadastro/cadastro.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/login/login.component.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/login/login.component.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/login/login.component.properties.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/login/login.component.style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/login/login.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/filters/categoria-filter.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/filters/reserva-filter.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/filters/reserva-roteiro-filter.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/filters/roteiro-categoria-filter.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/filters/roteiro-filter.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/filters/usuario-filter.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/helpers/enum-dialog-type.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/helpers/enum-tipo-usuario.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/helpers/helper-commons.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/helpers/helper-dialog.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/helpers/helper-login.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/helpers/helper-redirect.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/helpers/helper-sessao.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/helpers/helper-validation.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/models/categoria.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/models/reserva-roteiro.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/models/reserva.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/models/roteiro-categoria.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/models/roteiro.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/models/usuario.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/pages/page-cadastro/page-cadastro.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/pages/page-cadastro/page-cadastro.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/pages/page-home/page-home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/pages/page-home/page-home.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/pages/page-login/page-login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/pages/page-login/page-login.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/services/autenticacao.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/services/global.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/services/usuario.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../frontend/turistando-react/tslint.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Turistando/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Turistando/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Turistando/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Turistando/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Turistando.WebApi/Controllers/AutenticacaoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Turistando.WebApi/Controllers/AutenticacaoController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Turistando.WebApi/Controllers/CategoriaController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Turistando.WebApi/Controllers/CategoriaController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Turistando.WebApi/Controllers/ReservaController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Turistando.WebApi/Controllers/ReservaController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Turistando.WebApi/Controllers/ReservaRoteiroController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Turistando.WebApi/Controllers/ReservaRoteiroController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Turistando.WebApi/Controllers/RoteiroCategoriaController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Turistando.WebApi/Controllers/RoteiroCategoriaController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Turistando.WebApi/Controllers/RoteiroController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Turistando.WebApi/Controllers/RoteiroController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Turistando.WebApi/Controllers/UploadController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Turistando.WebApi/Controllers/UploadController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Turistando.WebApi/Controllers/UsuarioController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Turistando.WebApi/Controllers/UsuarioController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Turistando.WebApi/Helpers/ValidationModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Turistando.WebApi/Helpers/ValidationModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Turistando.WebApi/Repositories/ReservaRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Turistando.WebApi/Repositories/ReservaRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Turistando.WebApi/Repositories/RoteiroRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Turistando.WebApi/Repositories/RoteiroRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/turistando-react/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/cadastro/cadastro.component.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/cadastro/cadastro.component.interface.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/cadastro/cadastro.component.properties.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/cadastro/cadastro.component.style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/cadastro/cadastro.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/cadastro/cadastro.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/login/login.component.controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/login/login.component.interface.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/login/login.component.properties.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/login/login.component.style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/login/login.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/components/login/login.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/turistando-react/src/helpers/helper-validation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/helpers/helper-validation.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/turistando-react/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/turistando-react/src/models/roteiro.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/models/roteiro.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/turistando-react/src/pages/page-cadastro/page-cadastro.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/turistando-react/src/pages/page-cadastro/page-cadastro.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/pages/page-cadastro/page-cadastro.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/turistando-react/src/pages/page-home/page-home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/turistando-react/src/pages/page-home/page-home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/pages/page-home/page-home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/turistando-react/src/pages/page-login/page-login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/turistando-react/src/pages/page-login/page-login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/pages/page-login/page-login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/turistando-react/src/services/autenticacao.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/services/autenticacao.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/turistando-react/src/services/usuario.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/turistando-react/src/services/usuario.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +93,6 @@
         <option value="$PROJECT_DIR$/Turistando.WebApi/Filters/RoteiroCategoriaFilter.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Filters/UsuarioFilter.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Helpers/LoginModel.cs" />
-        <option value="$PROJECT_DIR$/Turistando.WebApi/Helpers/ValidationModel.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Interfaces/IAutenticacao.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Interfaces/ICategoria.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Interfaces/IReserva.cs" />
@@ -118,25 +101,26 @@
         <option value="$PROJECT_DIR$/Turistando.WebApi/Interfaces/IRoteiroCategoria.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Interfaces/IUsuario.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Repositories/AutenticacaoRepository.cs" />
-        <option value="$PROJECT_DIR$/Turistando.WebApi/Repositories/ReservaRepository.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Repositories/UsuarioRepository.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Repositories/ReservaRoteiroRepository.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Repositories/RoteiroCategoriaRepository.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Program.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Startup.cs" />
-        <option value="$PROJECT_DIR$/Turistando.WebApi/Controllers/AutenticacaoController.cs" />
-        <option value="$PROJECT_DIR$/Turistando.WebApi/Controllers/ReservaController.cs" />
-        <option value="$PROJECT_DIR$/Turistando.WebApi/Controllers/CategoriaController.cs" />
-        <option value="$PROJECT_DIR$/Turistando.WebApi/Controllers/RoteiroController.cs" />
-        <option value="$PROJECT_DIR$/Turistando.WebApi/Controllers/UsuarioController.cs" />
-        <option value="$PROJECT_DIR$/Turistando.WebApi/Controllers/RoteiroCategoriaController.cs" />
-        <option value="$PROJECT_DIR$/Turistando.WebApi/Controllers/ReservaRoteiroController.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Repositories/CategoriaRepository.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Models/Roteiro.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Filters/RoteiroFilter.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Mappings/RoteiroMapping.cs" />
-        <option value="$PROJECT_DIR$/Turistando.WebApi/Repositories/RoteiroRepository.cs" />
+        <option value="$PROJECT_DIR$/Turistando.WebApi/Helpers/ValidationModel.cs" />
+        <option value="$PROJECT_DIR$/Turistando.WebApi/Controllers/AutenticacaoController.cs" />
+        <option value="$PROJECT_DIR$/Turistando.WebApi/Controllers/CategoriaController.cs" />
+        <option value="$PROJECT_DIR$/Turistando.WebApi/Controllers/ReservaController.cs" />
+        <option value="$PROJECT_DIR$/Turistando.WebApi/Controllers/ReservaRoteiroController.cs" />
+        <option value="$PROJECT_DIR$/Turistando.WebApi/Controllers/RoteiroCategoriaController.cs" />
+        <option value="$PROJECT_DIR$/Turistando.WebApi/Controllers/RoteiroController.cs" />
         <option value="$PROJECT_DIR$/Turistando.WebApi/Controllers/UploadController.cs" />
+        <option value="$PROJECT_DIR$/Turistando.WebApi/Controllers/UsuarioController.cs" />
+        <option value="$PROJECT_DIR$/Turistando.WebApi/Repositories/RoteiroRepository.cs" />
+        <option value="$PROJECT_DIR$/Turistando.WebApi/Repositories/ReservaRepository.cs" />
       </list>
     </option>
   </component>
@@ -209,6 +193,9 @@
       <workItem from="1604488426779" duration="1319000" />
       <workItem from="1605028106794" duration="3566000" />
       <workItem from="1605112270832" duration="1997000" />
+      <workItem from="1605307164074" duration="1904000" />
+      <workItem from="1605394295624" duration="728000" />
+      <workItem from="1605457619566" duration="1425000" />
     </task>
     <task id="LOCAL-00001" summary="TUR-01: inicializacao dos models">
       <created>1604450188119</created>
